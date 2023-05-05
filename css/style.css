@@ -1,8 +1,7 @@
 body {
     background-color: #fceac1;
 }
-.headertext{
-    text-align: center;
+.headertext {
     font-size: 20vmin;
     line-height: 100%;
     color: #f1b848;
@@ -10,6 +9,23 @@ body {
     -webkit-text-stroke-color: #0a1a29;
 }
 
+h2 {
+    font-size: 10vmin;
+    text-align: center;
+    color: #0a1a29;
+}
+
+h3 {
+    font-size: 5vmin;
+    text-align: center;
+    color: #2e3e47;
+}
+
+h4 {
+    font-size: 3vmin;
+    text-align: center;
+    color:#2e3e47;
+}
 .card {
     background-color: #90a1a7;
     color: antiquewhite;
@@ -64,27 +80,52 @@ body {
 }
 
 h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 20vmin;
-}
+    font-family: 'Lato', sans-serif;}
 
 body{
     font-family: 'Solway', serif;}
 
+    
+.navbar {
+    display: flex;
+    font-size: 30px;
+}
+
+.navbar-light {
+    color:#f1b848;
+}
 
 .btn-lg {
     background-color: #0a1a29;
-    color:#fceac1;
+    color: #c59539;
 }
 
 .btn-lg:hover {
     background-color: #c59539;
+    color: #0a1a29;
 }
 
-.btn-lg:visited {
+.btn-sm {
+    background-color: #0a1a29;
+    color: #c59539;
+}
+
+.btn-sm:hover {
+    background-color: #c59539;
+    color: #0a1a29;
+}
+
+.btn-link {
+    background-color: #c59539; 
+    color: #2e3e47;
+    font-size: 4vmin;
+    display: flex;
+    justify-content: center;
+}
+.btn-link:hover {
     background-color: #2e3e47;
+    color: #c59539;
 }
-
 .store{
     background-image: url(../images/storeheading.jpeg);
     height: 50vh;
@@ -104,6 +145,49 @@ body{
     background-size: 100%;
     margin-bottom: 10px;
     opacity: 80%;
+}
+
+.whoweare {
+    background-image: url(../images/bradshawgirls.png);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.whereweare {
+    background-image: url(../images/fieldwork.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    background-image: url(../images/boxcart.png);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circleframe {
@@ -143,12 +227,135 @@ body{
     text-align: center;
 }
 
-
-
 .bd-example {
     position: relative;
     padding: 1rem;
     margin: 1rem -15px 0;
     border: solid #f7f7f9;
     border-width: 0.2rem 0 0;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.logo_words {
+    text-align: center;
+    size: 200px; 
+}
+
+.main{
+    background-color: #fceac1;
+}
+
+.white{
+    background-color: white;
+}
+
+.welcome{
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome::before {  
+    content: "";
+    background-image: url(../images/boxes.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.introhead{
+    font-style: bold;
+    font-size: 35px;
+}
+
+.hello_msg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.map{
+    background-image: url(../images/ncmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 500px;
+}
+
+.ourbees{
+    height: 20rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourbees::before {  
+    content: "";
+    background-image: url(../images/nucbox.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.65;
+}
+
+.buff{
+    padding: 5px;
+}
+
+.nucs{
+    background-image: url(../images/nucinterior.jpeg);
+    height: 25rem;
+    min-height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+h6{
+    font-family: 'Lato', sans-serif;
+    color: #0a1a29;
+    font-size: 3rem;
+}
+
+h1{
+    text-align: center;
+    line-height: 500px;
+    color:  #0a1a29;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    font-size: 6rem;
+    line-height: 0.9;
+    text-align: center;
 }
